@@ -27,7 +27,7 @@ float trig_tan(float x) //fucntion for tangent
 
 /*Sir i m facing problem in the main calling functions between the compilers
   where    */
-void main() //main calling function 
+int main() //main calling function 
 {
 	float rad = 0.0;
 	printf("x \t function  \n");
@@ -38,7 +38,7 @@ void main() //main calling function
 		printf ("%f \t cos(x)%f \n",rad,trig_cos(rad)); //printing value of cosine
 		printf ("%f \t tan(x)%f \n",rad,trig_tan(rad)); //printing value of tangent
 	}
-	//return 0;
+	return 0;
 }
 
 
